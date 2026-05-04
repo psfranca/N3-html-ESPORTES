@@ -8,10 +8,27 @@
 
 <link rel="stylesheet" href="css/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+<!-- FORMULÁRIO EM JANELA -->
+<div class="modal" id="modalContato">
+<div class="modal-content">
+<span class="fechar" id="fecharModal"></span>
+<h2>Fale Comigo</h2>
+<p class="sucesso" id="msg">Formulário enviado com sucesso!</p>
+<form id="meuForm">
+<label>Nome</label><input type="text" required>
+<label>Email</label><input type="email" required>
+<label>Idade</label><input type="number">
+<label>Qual dos 5 esportes ais populares do mundo você mais gosta?</label><select><option>Futebol</option><option>Críquete</option><option>Atletismo</option><option>Basquete</option><option>Tênis</option></select>
+<label>Número de Telefone</label><input type="tel">
+<label>Senha</label><input type="password">
+<label>Cor Favorita</label><input type="color">
+<label>Foto de Perfil</label><input type="file" accept="image/*">
+<label>Você gosta de Futebol?</label><select><option>Sim</option><option>Não</option><option>Mais ou menos</option></select>
+<label>Deixe aqui alguma mensagem ou experiência que você teve em algum esporte</label><textarea rows="4"></textarea>
+<button type="submit">Enviar</button>
+</form>
+</div>
+</div>
+
 </head>
-
-<body>
-
-<header>
-<h1> Esportes: Ficando por dentro da história </h1>
-</header>
+</html>
