@@ -23,12 +23,11 @@ nav {
 nav a {
   color: #cbd5f5;
   text-decoration: none;
-  font-weight: 500;
   transition: 0.3s;
 }
 
 nav a:hover {
-  color: #a78bfa;
+  color: #000000;
 }
 main {
   max-width: 900px;
@@ -60,12 +59,12 @@ input,textarea,select, button{
 
 
 h1 {
-  color: #7c3aed;
+  color: #000000;
 }
 
 h2 {
-  color: #8b5cf6;
-  margin-top: 20px;
+  color: #000000;
+  
 }
 
 h3 {
@@ -76,7 +75,7 @@ img {
   display: block;
   margin: 20px auto;
   max-width: 100%;
-  border-style: solid;
+  border-style:solid;
 }
 
 
@@ -133,12 +132,12 @@ iframe {
 
 table {
   width: 100%;
-  border-collapse: collapse;
+  border:black solid;
   margin: 20px 0;
 }
 
 td {
-  border: 1px solid #cbd5e1;
+  border: 5px solid #cbd5e1;
   padding: 8px;
   text-align: center;
 }
